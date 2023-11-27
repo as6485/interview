@@ -5,7 +5,7 @@ import java.util.function.Function;
 
 public class FunctionCurrying {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) { 
 		//using java.util.function.BiFunction
 		BiFunction<String, String, String> concatWithBiFunction = (a,b) -> a+b;
 		
