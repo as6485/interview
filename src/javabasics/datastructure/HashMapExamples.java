@@ -1,12 +1,11 @@
-package javabasics;
+package javabasics.datastructure;
 
 import java.util.*;
 import java.util.concurrent.*;  
 
-public class HashMapExample1 {
+public class HashMapExamples {
 
 	public static void main(String[] args) {
-		ConcurrentHashMap<Integer, String> ht = new ConcurrentHashMap<Integer, String>();
 		HashMap<Integer, String> map = new HashMap<Integer, String>();// Creating HashMap
 		map.put(1, "Mango"); // Put elements in Map
 		map.put(2, "Apple");

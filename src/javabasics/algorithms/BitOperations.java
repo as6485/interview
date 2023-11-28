@@ -1,4 +1,4 @@
-package javabasics;
+package javabasics.algorithms;
 
 public class BitOperations {
 

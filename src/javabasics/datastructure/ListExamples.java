@@ -1,4 +1,4 @@
-package javabasics;
+package javabasics.datastructure;
 
 import java.util.*;
 
@@ -33,7 +33,7 @@ public class ListExamples {
 		list = Arrays.stream(arr2).boxed().toList();
 		list.forEach(v->System.out.println(v));
 		
-		System.out.println("---- ListOf method from Java 9 ----------------------");
+		System.out.println("---- List.of method from Java 9 ----------------------");
 		list = List.of(10, 20, 30);
 		list.forEach(v->System.out.println(v));
 		

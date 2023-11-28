@@ -1,19 +1,16 @@
-package javabasics;
+package javabasics.datastructure;
 
-import java.util.*;
-
-public class SubstringExample {
+public class StringExample {
 
 	public static void main(String args[]) {
 		String s1 = "javatpoint";
 
-		System.out.println(s1.substring(0, 4));// returns va
-		System.out.println(s1.substring(2));// returns vatpoint
+		System.out.println(s1.substring(2, 5));// returns vat. start index inclusive but end index is exclusive
+		System.out.println(s1.substring(5));// returns point
 
 		System.out.println("---------------- split ----------------");
-		String s2 = "java string split method by javatpoint";
-		String[] words = s2.split("\\s");
-		// splits the string based on whitespace
+		String s2 = "java string split by space";
+		String[] words = s2.split("\\s");	// splits the string based on whitespace
 
 		for (String w : words) {
 			System.out.println(w);

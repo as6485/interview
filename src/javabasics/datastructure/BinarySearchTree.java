@@ -1,4 +1,4 @@
-package javabasics;
+package javabasics.datastructure;
 
 class Node {
 	int data;

@@ -1,4 +1,4 @@
-package javabasics;
+package javabasics.datastructure;
 
 import java.util.*;
 
@@ -11,6 +11,7 @@ public class SetExamples {
 		hs.add("Banana");
 		hs.add("Apple");
 		hs.add("Cucumber");
+		hs.add("Fig");
 		
 		lhs.add("Banana");
 		lhs.add("Apple");
@@ -34,6 +35,18 @@ public class SetExamples {
 		System.out.println(ts.contains("Apple"));
 		SortedSet ss = ts.headSet("Cucumber");
 		ss.forEach(v -> System.out.println(v));
-		
+
+		System.out.println("------- Union-----------");
+		hs.addAll(lhs);
+		hs.forEach(v -> System.out.println(v));
+
+		System.out.println("------- Intersection -----------");
+		hs.retainAll(lhs);
+		hs.forEach(v -> System.out.println(v));
+
+		System.out.println("------- Difference -----------");
+		hs.add("Fig"); //adding back Fig removed by Intersection
+		hs.removeAll(lhs);
+		hs.forEach(v -> System.out.println(v));
 	}
 }

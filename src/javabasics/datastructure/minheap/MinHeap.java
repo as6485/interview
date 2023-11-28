@@ -1,4 +1,4 @@
-package javabasics.minheap;
+package javabasics.datastructure.minheap;
 /* Complete binary tree (filled left to right) wher each node < childs */
 
 class Node {

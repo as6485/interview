@@ -1,4 +1,4 @@
-package javabasics.dynamic;
+package javabasics.algorithms.dynamic;
 
 public class Fibonacci {
 

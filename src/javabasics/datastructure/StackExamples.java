@@ -1,4 +1,4 @@
-package javabasics;
+package javabasics.datastructure;
 import java.util.*;
 public class StackExamples {
 
@@ -16,7 +16,7 @@ public class StackExamples {
 		stk.push(120);
 		// prints elements of the stack
 		System.out.println("Elements in Stack: " + stk);
-		stk.forEach(v -> System.out.println(v));
+		//stk.forEach(v -> System.out.println(v));
 		stk.pop();
 		System.out.println("Top of stack : "+ stk.peek());
 		result = stk.empty();
