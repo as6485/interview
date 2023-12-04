@@ -32,11 +32,11 @@ public class GraphAdjList {
 		graph.addEdge(3, 4);
 
 		graph.print();
-		System.out.println("----------------");
-
-		/*
-		 * graph.dfs(0); graph.clearVisted();
-		 */
+		System.out.println("-------- DFS --------");
+		graph.dfs(0);
+		graph.clearVisted();
+		System.out.println();
+		System.out.println("-------- BFS --------");
 		graph.bfs(0);
 		graph.clearVisted();
 

@@ -46,13 +46,13 @@ public class BitOperations {
 		System.out.println("get 3rd bit of 5 (101) : " + getBit(5, 2));
 		
 		// set bit
-		System.out.println("set 1st bit of 5 (101) to 7 (111) : " + setBit(5, 1));
+		System.out.println("set 2nd bit of 5 (101) to 7 (111) : " + setBit(5, 1));
 		
 		// clear bit
-		System.out.println("clear 1st bit of 7 (111) to 5 (101) : " + clearBit(5, 1));
+		System.out.println("clear 2nd bit of 7 (111) to 5 (101) : " + clearBit(7, 1));
 		
 		// update bit
-		System.out.println("update 1st bit of 5 (101) with 1 to make 7 (111) : " + updateBit(7, 1, 1));
+		System.out.println("update 2nd bit of 5 (101) with 1 to make 7 (111) : " + updateBit(5, 1, 1));
 	}
 
 	private static int getBit(int num, int bit) {
@@ -77,9 +77,9 @@ public class BitOperations {
 	
 	private static int updateBit(int num, int bit, int value) {
 		if(value == 1)
-			setBit(num, bit);
+			num=setBit(num, bit);
 		else if(value == 0)
-			clearBit(num, bit);
+			num=clearBit(num, bit);
 		
 		return num;
 	}
