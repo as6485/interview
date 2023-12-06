@@ -12,6 +12,15 @@ public class HashMapExamples {
 		map.put(3, "Banana");
 		map.put(4, "Grapes");
 
+		System.out.println("---------------- get all keys -----------------------");
+
+		map.keySet().stream().forEach(System.out::println);
+
+		System.out.println("---------------- get all values -----------------------");
+
+		map.values().stream().forEach(System.out::println);
+
+		System.out.println("---------------- EntrySet -----------------------");
 		for (Map.Entry m : map.entrySet()) {
 			System.out.println("Key :: " + m.getKey() + " Value :: " + m.getValue());
 		}
