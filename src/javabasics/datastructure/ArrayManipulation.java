@@ -32,6 +32,13 @@ public class ArrayManipulation {
 		
 		System.out.println("---- stream ------");		
 		Arrays.stream(intro).map(v -> v.toUpperCase()).forEach(System.out::println);
-		
+
+
+		System.out.println("---- 2D Array ------");
+		int[][] arr = new int[][] {{10,16},{2,8},{1,6},{7,12}};
+		System.out.println(Arrays.deepToString(arr));
+
+		Arrays.sort(arr, (a, b) -> Integer.compare(a[0], b[0]));
+		System.out.println(Arrays.deepToString(arr));
 	}
 }

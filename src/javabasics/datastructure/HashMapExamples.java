@@ -50,9 +50,9 @@ public class HashMapExamples {
 
 		System.out.println("-------------------computeIfAbsent--------------------");
 
-		map.computeIfAbsent(6, (key) -> {
+		System.out.println(map.computeIfAbsent(6, (key) -> {
 			return "cucumber";
-		});
+		}));
 
 		for (Map.Entry m : map.entrySet()) {
 			System.out.println("Key :: " + m.getKey() + " Value :: " + m.getValue());
