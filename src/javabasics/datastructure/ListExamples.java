@@ -19,7 +19,11 @@ public class ListExamples {
 		ll.add("Grapes");
 		ll.add("Orange");
 		ll.add("Grapes");
-		
+
+		System.out.println("---- contains ------");
+		System.out.println(ll.contains("Mango"));
+
+
 		System.out.println("---- ArrayList supports dynamic arrays that can grow ------");
 		al.forEach(v->System.out.println(v));
 		System.out.println(al.contains(3));		
