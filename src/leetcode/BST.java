@@ -1,8 +1,6 @@
 package leetcode;
 
-import com.sun.source.tree.Tree;
-
-class TreeNode {
+/*class TreeNode {
     int val;
     TreeNode left;
     TreeNode right;
@@ -16,7 +14,10 @@ class TreeNode {
         this.left = left;
         this.right = right;
     }
-}
+}*/
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class BST {
     TreeNode rootNode;
@@ -94,6 +95,7 @@ public class BST {
         }
     }
 
+
     /*public TreeNode deleteNode(TreeNode root, int key) {
        TreeNode nodeFound = searchNode(root, key);
        if(nodeFound == null){
@@ -159,12 +161,15 @@ public class BST {
         // Node root = new Node(8);
         BST bst = new BST();
 
-        bst.insert(5);
+        /*bst.insert(5);
         bst.insert(3);
         bst.insert(6);
         bst.insert(2);
         bst.insert(4);
-        bst.insert(7);
+        bst.insert(7);*/
+
+        bst.insert(1);
+        bst.insert(2);
 
         // search existing nodes
         System.out.println("Search 8 : " + bst.search(8));
@@ -173,11 +178,60 @@ public class BST {
 
         System.out.println("Search 7 : " + bst.search(7));
 
-        bst.inOrderTraversal(bst.rootNode);
+        bst.rightSideView(bst.rootNode).forEach(v -> {
+            System.out.print(v+", ");
+        });
+        //bst.inOrderTraversal(bst.rootNode);
 
         System.out.println("Delete 3 : " + bst.deleteNode(bst.rootNode, 3));
         System.out.println("In order traversal after deleting 3 : ");
         bst.inOrderTraversal(bst.rootNode);
     }
+
+    public static List<Integer> rightSideView(TreeNode root) {
+        List<Integer> result = new ArrayList<Integer>();
+        rightView(root, result, 0);
+        return result;
+    }
+
+    public static void rightView(TreeNode curr, List<Integer> result, int currDepth){
+        if(curr == null){
+            return;
+        }
+        if(currDepth == result.size()){
+            result.add(curr.val);
+        }
+
+        rightView(curr.right, result, currDepth + 1);
+        rightView(curr.left, result, currDepth + 1);
+
+    }
+
+    public List<Integer> leafNodeTraversal(TreeNode node) {
+        List<Integer> leaves = new ArrayList<>();
+        if (node == null) {
+            return leaves;
+        }
+
+        if(node.left == null && node.right == null){
+            leaves.add(node.val);
+            return leaves;
+        }
+
+        if (node.left != null) {
+            List<Integer> leftLeaves = leafNodeTraversal(node.left);
+            if(!leftLeaves.isEmpty())
+                leaves.addAll(leftLeaves);
+        }
+
+        if (node.right != null) {
+            List<Integer> rightLeaves = leafNodeTraversal(node.right);
+            if(!rightLeaves.isEmpty())
+                leaves.addAll(rightLeaves);
+        }
+
+        return leaves;
+    }
+
 
 }
