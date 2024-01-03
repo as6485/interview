@@ -1,6 +1,16 @@
 package javabasics.datastructure;
 import java.util.*;
 
+class Student{
+	Integer rank;
+	String name;
+
+	public Student(Integer rank, String name) {
+		this.rank = rank;
+		this.name = name;
+	}
+}
+
 public class QueueExample {
 
 	public static void main(String[] args) {
@@ -33,6 +43,20 @@ public class QueueExample {
 		System.out.println("peek/poll/remove guarantees to return least element");
 		while (!pQueue.isEmpty())
 			System.out.println(pQueue.remove());
+
+		System.out.println("********* PriorityQueue with Comparator *******************");
+		PriorityQueue<Student> studentsPQ = new PriorityQueue<Student>(1, (o1, o2) -> {
+			return Integer.compare(o1.rank, o2.rank);
+		});
+		Student s2 = new Student(2, "Rupali");
+		Student s3 = new Student(3, "Kabita");
+		Student s1 = new Student(1, "Ayan");
+		studentsPQ.add(s2);
+		studentsPQ.add(s3);
+		studentsPQ.add(s1);
+
+		System.out.println("Top Student : "+studentsPQ.peek().name);
+
 
 		System.out.println("******************* ArrayDeque *************************");
 
