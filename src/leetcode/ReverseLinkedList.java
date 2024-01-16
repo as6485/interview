@@ -12,15 +12,33 @@ class ListNode {
 
 public class ReverseLinkedList {
     public static void main(String[] args) {
-        /*ListNode five = new ListNode(5);
-        ListNode four = new ListNode(4, five);*/
-        ListNode three = new ListNode(3, null);
+        /*ListNode five = new ListNode(5);*/
+        ListNode four = new ListNode(4, null);
+        ListNode three = new ListNode(3, four);
         ListNode two = new ListNode(2, three);
-        ListNode head = new ListNode(1, two);
+        ListNode one = new ListNode(1, two);
         //head = reverseListStack(head);
         //head = reverseListIterative(head);
-        head = reverseListRecursive(head);
-        printList(head);
+        //head = reverseListRecursive(head);
+        printList(one);
+        System.out.println("");
+        one = deleteMiddle(one);
+        printList(one);
+    }
+
+    public static ListNode deleteMiddle(ListNode head) {
+        ListNode slow = head, fast = head, previous = null;
+        while(fast != null && fast.next != null){
+            previous = slow;
+            fast = fast.next.next;
+            slow = slow.next;
+        }
+        if(previous==null)
+            head = null;
+        else
+            previous.next = slow.next;
+
+        return head;
     }
 
     private static void printList(ListNode node) {
