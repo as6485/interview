@@ -1,6 +1,8 @@
 package javabasics.datastructure;
 
+import java.util.Collections;
 import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.Map;
 
 public class HashMapExamples {
@@ -71,6 +73,16 @@ public class HashMapExamples {
 			hm.put(c, hm.getOrDefault(c, 0) + 1);
 		});
 		hm.forEach((k, v) -> System.out.println("key: " + k + " value:" + v));
+
+		System.out.println("------------ Find Key with Highest Value -----------------");
+		LinkedHashMap<Integer, Integer> mapIntValues = new LinkedHashMap<>();
+		mapIntValues.put(5, 2);
+		mapIntValues.put(1, 1);
+		mapIntValues.put(2, 2);
+		mapIntValues.put(3, 2);
+		mapIntValues.put(4, 1);
+		System.out.println(Collections.max(mapIntValues.entrySet(), Map.Entry.comparingByValue()).getKey());
+
 	}
 
 }
