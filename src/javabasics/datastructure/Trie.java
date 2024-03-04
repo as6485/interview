@@ -1,9 +1,7 @@
 package javabasics.datastructure;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.List;
+import java.util.*;
+
 /*
     Refer : https://www.baeldung.com/trie-java
  */
@@ -74,11 +72,34 @@ class Trie {
     }
 
     public static void main(String[] args) {
-        Trie trie = new Trie();
+        /*Trie trie = new Trie();
         trie.insert("make");
         trie.insert("maze");
+        System.out.println(trie.search("make"));
+        System.out.println(trie.startsWith("ma"));*/
 
-        System.out.println(trie.startsWith("ma"));
+        Trie trie = new Trie();
+        trie.insert("mobile");
+        trie.insert("mouse");
+        trie.insert("moneypot");
+        trie.insert("monitor");
+        trie.insert("mousepad");
+
+        System.out.println(trie.suggestedProducts("mouse"));
+
+        //trie.findAllWords(trie.root,  new StringBuilder()).forEach(System.out::println);
+
+    }
+
+    public boolean search(String word) {
+        TrieNode current = root;
+        for (char l : word.toCharArray()) {
+            current = current.getChildren().get(l);
+            if (current == null) {
+                return false;
+            }
+        }
+        return current.isEndOfWord();
     }
 
     public boolean startsWith(String prefix) {
@@ -91,24 +112,71 @@ class Trie {
         }
         return true;
     }
-    TrieNode find(String word) {
+
+    public List<List<String>> suggestedProducts(String searchWord) {
+        TrieNode tn = null;
+        List<List<String>> listOfsuggestions = new ArrayList<>();
+        for(int i = 1; i<=searchWord.length(); i++){
+            String prefix = searchWord.substring(0,i);
+            List<String> suggestions = findAllWords(findNodeWithPrefix(prefix), new StringBuilder(prefix));
+            if(!suggestions.isEmpty()){
+                Collections.sort(suggestions);
+                listOfsuggestions.add(suggestions.subList(0,Math.min(3, suggestions.size())));
+            }
+        }
+        return listOfsuggestions;
+    }
+
+    private TrieNode findNodeWithPrefix(String prefix) {
         TrieNode current = root;
-        for (char l : word.toCharArray()) {
+        for (char l : prefix.toCharArray()) {
+            current = current.getChildren().get(l);
             if (current == null) {
                 return null;
             }
-            current = current.getChildren().get(l);
         }
         return current;
     }
 
-
-    List<String> findAllWordsStartingWith(String searchStr){
+    private List<String> findAllWords(TrieNode node, StringBuilder sb) {
+        TrieNode current = node;
         List<String> words = new ArrayList<>();
-        TrieNode node = find(searchStr);
-        if(node != null){
-            System.out.println(node.isEndOfWord());
+
+        if(current.isEndOfWord()){
+            words.add(sb.toString());
         }
+
+        current.getChildren().forEach((k,v) -> {
+            StringBuilder sbChild = new StringBuilder(sb.toString());
+            sbChild.append(k);
+            words.addAll(findAllWords(current.getChildren().get(k), sbChild));
+        });
         return words;
     }
+
+    /*public List<String> startsWithString(String str, TrieNode node) {
+        List<String> suggestions = new ArrayList<>();
+        TrieNode current = node;
+        StringBuilder sb = new StringBuilder();
+        //prefix with str
+        for (char l : str.toCharArray()) {
+            current = current.getChildren().get(l);
+            if (current == null) {
+                return null;
+            }
+            sb.append(l);
+        }
+        //check if end
+        if(current.isEndOfWord()){
+            suggestions.add(sb.toString());
+        }
+
+        //children of this prefix
+        current.getChildren().forEach((k, v) -> {
+            suggestions.addAll(startsWithString(sb.substring(sb.length()-1, sb.length()), v));
+        });
+
+        return suggestions;
+    }*/
+
 }

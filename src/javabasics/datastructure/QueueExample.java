@@ -19,10 +19,10 @@ public class QueueExample {
 		Deque<Integer> dq = new ArrayDeque<Integer>();
 
 		// Adding items to the pQueue using add()
-		pQueue.add(10);
-		pQueue.add(20);
 		pQueue.add(17);
+		pQueue.add(10);
 		pQueue.add(15);
+		pQueue.add(20);
 
 		System.out.println("Iterating with forEach");
 		pQueue.forEach(v -> System.out.println(v));

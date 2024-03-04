@@ -14,6 +14,10 @@ public class CombinationSum {
                                     int k,
                                     int start,
                                     int n) {
+        if (comb.size() > k) {
+            return;
+        }
+
         if (comb.size() == k && n == 0) {
             List<Integer> li = new ArrayList<Integer>(comb);
             ans.add(li);
