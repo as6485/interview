@@ -1,16 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="ANALYZE_INJECTED_CODE" value="false" />
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="645cbd82-8ba9-419e-bfdc-d60981a97a8e" name="Changes" comment="leet progress 6th December 23">
+    <list default="true" id="645cbd82-8ba9-419e-bfdc-d60981a97a8e" name="Changes" comment="leet progress 25June 24">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javabasics/datastructure/StringExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javabasics/datastructure/StringExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -22,6 +30,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;as6485&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/as6485/interview.git&quot;,
+    &quot;accountId&quot;: &quot;ddfe9345-766b-4577-946a-c5ef37c9486f&quot;
+  }
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -36,21 +56,98 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/urmis/IdeaProjects/interview&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ArrayManipulation.executor": "Run",
+    "Application.ArrowsToBallons.executor": "Run",
+    "Application.AsteroidCollision.executor": "Run",
+    "Application.BST.executor": "Run",
+    "Application.BestTimetoBuyandSellStockwithTransactionFee.executor": "Debug",
+    "Application.BinarySearchTree.executor": "Debug",
+    "Application.CombinationSum.executor": "Debug",
+    "Application.ConcurrentModificationInCollection.executor": "Run",
+    "Application.ConstructBinaryTreeFromInorderAndPostorder.executor": "Debug",
+    "Application.CountGoodNodesInBinaryTree.executor": "Run",
+    "Application.DailyTemperatures.executor": "Debug",
+    "Application.Dota2Senate.executor": "Debug",
+    "Application.EqualRowAndColumnPairs.executor": "Debug",
+    "Application.FindPeakElement.executor": "Run",
+    "Application.FruitIntoBaskets.executor": "Run",
+    "Application.GraphAdjList.executor": "Debug",
+    "Application.GroupAnagrams.executor": "Run",
+    "Application.HIndex.executor": "Debug",
+    "Application.HappyNumber.executor": "Run",
+    "Application.HashMapExamples.executor": "Run",
+    "Application.IsomorphicString.executor": "Debug",
+    "Application.KeysAndRooms.executor": "Run",
+    "Application.Knapsack_01.executor": "Run",
+    "Application.KthLargestElementInAnArray.executor": "Debug",
+    "Application.LCABinaryTree.executor": "Debug",
+    "Application.LetterCombinationsOfPhoneNumber.executor": "Debug",
+    "Application.ListExamples.executor": "Run",
+    "Application.LongestCommonSubsequence.executor": "Debug",
+    "Application.LongestSubarrayOf1.executor": "Debug",
+    "Application.LongestZigZagPathInABinaryTree.executor": "Run",
+    "Application.MaxConsecutiveOnesIII.executor": "Debug",
+    "Application.MaxNumberOfKSumPairs.executor": "Run",
+    "Application.MaximumLevelSumOfBinaryTree.executor": "Debug",
+    "Application.MaximumTwinSum.executor": "Debug",
+    "Application.MergeIntervals.executor": "Run",
+    "Application.MergeKSortedArrays.executor": "Debug",
+    "Application.MergeKSortedLists.executor": "Debug",
+    "Application.MinimumFlips.executor": "Run",
+    "Application.NonOverlappingIntervals.executor": "Run",
+    "Application.NumberOfIslands.executor": "Run",
+    "Application.OddEvenLinkedList.executor": "Run",
+    "Application.PathSumIII.executor": "Run",
+    "Application.PlusOne.executor": "Run",
+    "Application.ProductOfArrayExceptSelf.executor": "Debug",
+    "Application.QueueExample.executor": "Debug",
+    "Application.RemoveDuplicatesfromSortedArray.executor": "Run",
+    "Application.ReorderRoutes.executor": "Run",
+    "Application.ReverseLinkedList.executor": "Run",
+    "Application.RotateList.executor": "Run",
+    "Application.RottingOranges.executor": "Run",
+    "Application.SmallestInfiniteSet.executor": "Debug",
+    "Application.SpellsAndPotions.executor": "Debug",
+    "Application.StreamExamples.executor": "Run",
+    "Application.StringCompression.executor": "Run",
+    "Application.StringExample.executor": "Run",
+    "Application.TrappingRainWater.executor": "Debug",
+    "Application.Trie.executor": "Run",
+    "Application.TwoStringsAreClose.executor": "Run",
+    "Application.UniquePaths.executor": "Debug",
+    "Application.ValidPalindrome.executor": "Debug",
+    "Application.ValidParentheses.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "extract.method.default.visibility": "private",
+    "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "17",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/urmis/IdeaProjects/interview",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
   }
-}</component>
-  <component name="RunManager" selected="Application.StockSpannerStack">
+}]]></component>
+  <component name="RunManager" selected="Application.StringExample">
+    <configuration name="IsomorphicString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.IsomorphicString" />
+      <module name="interview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PrimeNumber" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="$PROJECT_DIR$/../../../../Program Files/Java/jdk-17" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -66,8 +163,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueueExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javabasics.datastructure.QueueExample" />
+    <configuration name="RemoveDuplicatesfromSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.RemoveDuplicatesfromSortedArray" />
+      <module name="interview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RotateList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.RotateList" />
+      <module name="interview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javabasics.datastructure.StringExample" />
       <module name="interview" />
       <extension name="coverage">
         <pattern>
@@ -79,8 +202,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.ReverseLinkedList" />
+    <configuration name="ValidParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.ValidParentheses" />
       <module name="interview" />
       <extension name="coverage">
         <pattern>
@@ -92,52 +215,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseWordsInAString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.ReverseWordsInAString" />
-      <module name="interview" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StockSpanner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.StockSpanner" />
-      <module name="interview" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StockSpannerStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.StockSpannerStack" />
-      <module name="interview" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <list>
+      <item itemvalue="Application.PrimeNumber" />
+      <item itemvalue="Application.StringExample" />
+      <item itemvalue="Application.IsomorphicString" />
+      <item itemvalue="Application.RotateList" />
+      <item itemvalue="Application.ValidParentheses" />
+      <item itemvalue="Application.RemoveDuplicatesfromSortedArray" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StockSpannerStack" />
-        <item itemvalue="Application.StockSpanner" />
-        <item itemvalue="Application.ReverseWordsInAString" />
-        <item itemvalue="Application.ReverseLinkedList" />
-        <item itemvalue="Application.QueueExample" />
+        <item itemvalue="Application.StringExample" />
+        <item itemvalue="Application.RemoveDuplicatesfromSortedArray" />
+        <item itemvalue="Application.ValidParentheses" />
+        <item itemvalue="Application.RotateList" />
+        <item itemvalue="Application.IsomorphicString" />
       </list>
     </recent_temporary>
   </component>
@@ -174,7 +266,143 @@
       <option name="project" value="LOCAL" />
       <updated>1701883974635</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="leet progress 18th December 23">
+      <option name="closed" value="true" />
+      <created>1702914719329</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1702914719329</updated>
+    </task>
+    <task id="LOCAL-00005" summary="leet progress 22nd December 23">
+      <option name="closed" value="true" />
+      <created>1703233895220</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1703233895220</updated>
+    </task>
+    <task id="LOCAL-00006" summary="leet progress 26th December 23">
+      <option name="closed" value="true" />
+      <created>1703603727506</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1703603727506</updated>
+    </task>
+    <task id="LOCAL-00007" summary="leet progress 1st January 24 December 23">
+      <option name="closed" value="true" />
+      <created>1704130192421</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1704130192421</updated>
+    </task>
+    <task id="LOCAL-00008" summary="leet progress 2nd January 24">
+      <option name="closed" value="true" />
+      <created>1704255021091</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1704255021091</updated>
+    </task>
+    <task id="LOCAL-00009" summary="leet progress 3rd January 24">
+      <option name="closed" value="true" />
+      <created>1704287670393</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1704287670393</updated>
+    </task>
+    <task id="LOCAL-00010" summary="leet progress 4th January 24">
+      <option name="closed" value="true" />
+      <created>1704700400527</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1704700400527</updated>
+    </task>
+    <task id="LOCAL-00011" summary="leet progress 16th January 24">
+      <option name="closed" value="true" />
+      <created>1705396061833</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1705396061833</updated>
+    </task>
+    <task id="LOCAL-00012" summary="leet progress 17th January 24">
+      <option name="closed" value="true" />
+      <created>1705499649572</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1705499649572</updated>
+    </task>
+    <task id="LOCAL-00013" summary="leet progress 22nd January 24">
+      <option name="closed" value="true" />
+      <created>1705931596763</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1705931596763</updated>
+    </task>
+    <task id="LOCAL-00014" summary="leet progress 6th Feb 24">
+      <option name="closed" value="true" />
+      <created>1707199968101</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1707199968101</updated>
+    </task>
+    <task id="LOCAL-00015" summary="leet progress 22nd Feb 24">
+      <option name="closed" value="true" />
+      <created>1708594561330</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1708594561330</updated>
+    </task>
+    <task id="LOCAL-00016" summary="leet progress 1st March 24">
+      <option name="closed" value="true" />
+      <created>1709525260244</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1709525260244</updated>
+    </task>
+    <task id="LOCAL-00017" summary="leet progress 1st March 24">
+      <option name="closed" value="true" />
+      <created>1717660031199</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1717660031199</updated>
+    </task>
+    <task id="LOCAL-00018" summary="leet progress 1st March 24">
+      <option name="closed" value="true" />
+      <created>1717869900086</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1717869900086</updated>
+    </task>
+    <task id="LOCAL-00019" summary="leet progress 16June 24">
+      <option name="closed" value="true" />
+      <created>1718546573142</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1718546573142</updated>
+    </task>
+    <task id="LOCAL-00020" summary="leet progress 25June 24">
+      <option name="closed" value="true" />
+      <created>1719291358072</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1719291358072</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -193,7 +421,22 @@
     <MESSAGE value="package restructuring" />
     <MESSAGE value="leet progress 12th December 23" />
     <MESSAGE value="leet progress 6th December 23" />
-    <option name="LAST_COMMIT_MESSAGE" value="leet progress 6th December 23" />
+    <MESSAGE value="leet progress 18th December 23" />
+    <MESSAGE value="leet progress 22nd December 23" />
+    <MESSAGE value="leet progress 26th December 23" />
+    <MESSAGE value="leet progress 1st January 24 December 23" />
+    <MESSAGE value="leet progress 2nd January 24" />
+    <MESSAGE value="leet progress 3rd January 24" />
+    <MESSAGE value="leet progress 4th January 24" />
+    <MESSAGE value="leet progress 16th January 24" />
+    <MESSAGE value="leet progress 17th January 24" />
+    <MESSAGE value="leet progress 22nd January 24" />
+    <MESSAGE value="leet progress 6th Feb 24" />
+    <MESSAGE value="leet progress 22nd Feb 24" />
+    <MESSAGE value="leet progress 1st March 24" />
+    <MESSAGE value="leet progress 16June 24" />
+    <MESSAGE value="leet progress 25June 24" />
+    <option name="LAST_COMMIT_MESSAGE" value="leet progress 25June 24" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -207,12 +450,297 @@
           </properties>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/leetcode/CombinationSum.java</url>
+          <line>6</line>
+          <properties class="leetcode.CombinationSum" method="combinationSum3">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/leetcode/ArrowsToBallons.java</url>
+          <line>16</line>
+          <properties class="leetcode.ArrowsToBallons" method="findMinArrowShots">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/leetcode/StockSpannerStack.java</url>
           <line>40</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/HouseRobber.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/NonOverlappingIntervals.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/javabasics/datastructure/BinarySearchTree.java</url>
+          <line>171</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/LetterCombinationsOfPhoneNumber.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/SmallestInfiniteSet.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/UniquePaths.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/LongestCommonSubsequence.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/MinimumFlips.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/ReverseLinkedList.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/SpellsAndPotions.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/RottingOranges.java</url>
+          <line>66</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/Dota2Senate.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/ProductOfArrayExceptSelf.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/TwoStringsAreClose.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/TwoStringsAreClose.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/EqualRowAndColumnPairs.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/MaxNumberOfKSumPairs.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/MaxConsecutiveOnesIII.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/MaxConsecutiveOnesIII.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/LongestSubarrayOf1.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/OddEvenLinkedList.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/OddEvenLinkedList.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/MaximumTwinSum.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/PathSumIII.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/LCABinaryTree.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/LCABinaryTree.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/MaximumLevelSumOfBinaryTree.java</url>
+          <line>26</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="89" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/javabasics/datastructure/Trie.java</url>
+          <line>116</line>
+          <option name="timeStamp" value="94" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/javabasics/datastructure/QueueExample.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/javabasics/datastructure/QueueExample.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="97" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/KthLargestElementInAnArray.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="98" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/ReorderRoutes.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="100" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/BestTimetoBuyandSellStockwithTransactionFee.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="101" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/BestTimetoBuyandSellStockwithTransactionFee.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="102" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/DailyTemperatures.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="104" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/FruitIntoBaskets.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="107" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/javabasics/datastructure/graph/GraphAdjList.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="112" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/NumberOfIslands.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="114" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/MergeIntervals.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="124" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/HappyNumber.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="127" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/PlusOne.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="129" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/TrappingRainWater.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="131" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/TrappingRainWater.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="132" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/ValidPalindrome.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="133" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/ConstructBinaryTreeFromInorderAndPostorder.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="135" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/IsomorphicString.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="137" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/HIndex.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="140" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/HIndex.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="141" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/ValidParentheses.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="142" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/RotateList.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="145" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/RemoveDuplicatesfromSortedArray.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="146" />
+        </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.util.ConcurrentModificationException" package="java.util" />
+          <option name="timeStamp" value="45" />
+        </breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/interview$QueueExample.ic" NAME="QueueExample Coverage Results" MODIFIED="1709011193609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>javabasics.datastructure.*</FILTER>
+    </SUITE>
   </component>
 </project>
