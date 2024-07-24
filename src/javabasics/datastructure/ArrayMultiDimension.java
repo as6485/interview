@@ -12,24 +12,20 @@ public class ArrayMultiDimension {
         int[][] twoDimArrayDeepClone = deepCopy(twoDimArray); //implemented programmatically
 
         System.out.println("Original 2D array is: ");
-        printArray(rows, columns, twoDimArray);
+        System.out.println(Arrays.deepToString(twoDimArray));
 
-        twoDimArray[0][0] = 123; //Changes to original array affects shallow clone array but doesn't affect a deep cloned array
+        twoDimArray[0][1] = 123; //Changes to original array affects shallow clone array but doesn't affect a deep cloned array
 
         System.out.println("Changes to original array affects shallow clone array as well: ");
-        printArray(rows, columns, twoDimArrayClone);
+        System.out.println(Arrays.deepToString(twoDimArrayClone));
 
         System.out.println("but doesn't affect a deep cloned array: ");
-        printArray(rows, columns, twoDimArrayDeepClone);
-    }
+        System.out.println(Arrays.deepToString(twoDimArrayDeepClone));
 
-    private static void printArray(int rows, int columns, int[][] arr) {
-        for (int i = 0; i < rows; i++) {
-            for (int j = 0; j < columns; j++) {
-                System.out.print(arr[i][j] + " ");
-            }
-            System.out.println();
-        }
+        System.out.println("twoDimArray equals twoDimArrayClone : "+Arrays.equals(twoDimArray, twoDimArrayClone));
+        System.out.println("twoDimArray equals twoDimArrayDeepClone : "+Arrays.equals(twoDimArray, twoDimArrayClone));
+        System.out.println("twoDimArray deepequals twoDimArrayDeepClone : "+Arrays.deepEquals(twoDimArray, twoDimArrayDeepClone));
+
     }
 
     private static int[][] deepCopy(int[][] twoDimArray) {

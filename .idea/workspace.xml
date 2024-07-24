@@ -8,9 +8,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="645cbd82-8ba9-419e-bfdc-d60981a97a8e" name="Changes" comment="leet progress 25June 24">
+    <list default="true" id="645cbd82-8ba9-419e-bfdc-d60981a97a8e" name="Changes" comment="leet progress 22nd July 24">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javabasics/datastructure/StringExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javabasics/datastructure/StringExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javabasics/algorithms/BitOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javabasics/algorithms/BitOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javabasics/datastructure/ArrayManipulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javabasics/datastructure/ArrayManipulation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javabasics/datastructure/ArrayMultiDimension.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javabasics/datastructure/ArrayMultiDimension.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javabasics/datastructure/HashMapExamples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javabasics/datastructure/HashMapExamples.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,12 +61,15 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.AddBinary.executor": "Debug",
     "Application.ArrayManipulation.executor": "Run",
+    "Application.ArrayMultiDimension.executor": "Run",
     "Application.ArrowsToBallons.executor": "Run",
     "Application.AsteroidCollision.executor": "Run",
     "Application.BST.executor": "Run",
     "Application.BestTimetoBuyandSellStockwithTransactionFee.executor": "Debug",
     "Application.BinarySearchTree.executor": "Debug",
+    "Application.BitOperations.executor": "Run",
     "Application.CombinationSum.executor": "Debug",
     "Application.ConcurrentModificationInCollection.executor": "Run",
     "Application.ConstructBinaryTreeFromInorderAndPostorder.executor": "Debug",
@@ -73,9 +79,10 @@
     "Application.EqualRowAndColumnPairs.executor": "Debug",
     "Application.FindPeakElement.executor": "Run",
     "Application.FruitIntoBaskets.executor": "Run",
-    "Application.GraphAdjList.executor": "Debug",
+    "Application.GraphAdjList.executor": "Run",
     "Application.GroupAnagrams.executor": "Run",
     "Application.HIndex.executor": "Debug",
+    "Application.HammingWeight.executor": "Run",
     "Application.HappyNumber.executor": "Run",
     "Application.HashMapExamples.executor": "Run",
     "Application.IsomorphicString.executor": "Debug",
@@ -105,11 +112,14 @@
     "Application.QueueExample.executor": "Debug",
     "Application.RemoveDuplicatesfromSortedArray.executor": "Run",
     "Application.ReorderRoutes.executor": "Run",
+    "Application.ReverseBits.executor": "Debug",
     "Application.ReverseLinkedList.executor": "Run",
     "Application.RotateList.executor": "Run",
     "Application.RottingOranges.executor": "Run",
+    "Application.SetExamples.executor": "Run",
     "Application.SmallestInfiniteSet.executor": "Debug",
     "Application.SpellsAndPotions.executor": "Debug",
+    "Application.StackExamples.executor": "Run",
     "Application.StreamExamples.executor": "Run",
     "Application.StringCompression.executor": "Run",
     "Application.StringExample.executor": "Run",
@@ -134,9 +144,48 @@
     "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.StringExample">
-    <configuration name="IsomorphicString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.IsomorphicString" />
+  <component name="RunManager" selected="Application.HammingWeight">
+    <configuration name="AddBinary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.AddBinary" />
+      <module name="interview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BitOperations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javabasics.algorithms.BitOperations" />
+      <module name="interview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javabasics.algorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GraphAdjList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javabasics.datastructure.graph.GraphAdjList" />
+      <module name="interview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javabasics.datastructure.graph.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HammingWeight" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.HammingWeight" />
       <module name="interview" />
       <extension name="coverage">
         <pattern>
@@ -163,47 +212,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveDuplicatesfromSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.RemoveDuplicatesfromSortedArray" />
-      <module name="interview" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RotateList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.RotateList" />
-      <module name="interview" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StringExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javabasics.datastructure.StringExample" />
-      <module name="interview" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="javabasics.datastructure.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ValidParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.ValidParentheses" />
+    <configuration name="ReverseBits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.ReverseBits" />
       <module name="interview" />
       <extension name="coverage">
         <pattern>
@@ -217,19 +227,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.PrimeNumber" />
-      <item itemvalue="Application.StringExample" />
-      <item itemvalue="Application.IsomorphicString" />
-      <item itemvalue="Application.RotateList" />
-      <item itemvalue="Application.ValidParentheses" />
-      <item itemvalue="Application.RemoveDuplicatesfromSortedArray" />
+      <item itemvalue="Application.HammingWeight" />
+      <item itemvalue="Application.ReverseBits" />
+      <item itemvalue="Application.AddBinary" />
+      <item itemvalue="Application.BitOperations" />
+      <item itemvalue="Application.GraphAdjList" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StringExample" />
-        <item itemvalue="Application.RemoveDuplicatesfromSortedArray" />
-        <item itemvalue="Application.ValidParentheses" />
-        <item itemvalue="Application.RotateList" />
-        <item itemvalue="Application.IsomorphicString" />
+        <item itemvalue="Application.HammingWeight" />
+        <item itemvalue="Application.ReverseBits" />
+        <item itemvalue="Application.AddBinary" />
+        <item itemvalue="Application.BitOperations" />
+        <item itemvalue="Application.GraphAdjList" />
       </list>
     </recent_temporary>
   </component>
@@ -402,7 +412,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719291358072</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="leet progress 22nd July 24">
+      <option name="closed" value="true" />
+      <created>1721632277753</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1721632277753</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -436,7 +454,8 @@
     <MESSAGE value="leet progress 1st March 24" />
     <MESSAGE value="leet progress 16June 24" />
     <MESSAGE value="leet progress 25June 24" />
-    <option name="LAST_COMMIT_MESSAGE" value="leet progress 25June 24" />
+    <MESSAGE value="leet progress 22nd July 24" />
+    <option name="LAST_COMMIT_MESSAGE" value="leet progress 22nd July 24" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -482,11 +501,6 @@
           <url>file://$PROJECT_DIR$/src/leetcode/NonOverlappingIntervals.java</url>
           <line>35</line>
           <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/javabasics/datastructure/BinarySearchTree.java</url>
-          <line>171</line>
-          <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/leetcode/LetterCombinationsOfPhoneNumber.java</url>
@@ -612,21 +626,6 @@
           <option name="timeStamp" value="89" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/javabasics/datastructure/Trie.java</url>
-          <line>116</line>
-          <option name="timeStamp" value="94" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/javabasics/datastructure/QueueExample.java</url>
-          <line>16</line>
-          <option name="timeStamp" value="96" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/javabasics/datastructure/QueueExample.java</url>
-          <line>17</line>
-          <option name="timeStamp" value="97" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/leetcode/KthLargestElementInAnArray.java</url>
           <line>12</line>
           <option name="timeStamp" value="98" />
@@ -730,6 +729,21 @@
           <url>file://$PROJECT_DIR$/src/leetcode/RemoveDuplicatesfromSortedArray.java</url>
           <line>11</line>
           <option name="timeStamp" value="146" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/AddBinary.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="148" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/AddBinary.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="149" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/ReverseBits.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="150" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.util.ConcurrentModificationException" package="java.util" />

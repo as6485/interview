@@ -1,6 +1,7 @@
 package javabasics.datastructure;
 
 import java.util.Arrays;
+import java.util.List;
 
 //https://www.baeldung.com/java-util-arrays
 public class ArrayManipulation {
@@ -17,8 +18,13 @@ public class ArrayManipulation {
 				
 		System.out.println("---- equals ------");
 		System.out.println(Arrays.equals(new String[] { "once", "upon", "a", "time" }, intro));
-		
-		
+
+		System.out.println("---- array <---> list ------");
+		List<String> list = Arrays.asList(intro);
+		list.forEach(System.out::println);
+
+		Object[] objArr = list.toArray();
+		System.out.println(Arrays.toString(objArr));
 				
 		System.out.println("---- sort ------");
 		Arrays.sort(intro);

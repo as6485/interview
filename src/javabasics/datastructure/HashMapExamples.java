@@ -37,7 +37,25 @@ public class HashMapExamples {
 
 		System.out.println("--------------- putIfAbsent-------------------");
 
-		map.putIfAbsent(5, "Mango");
+		System.out.println(map.putIfAbsent(5, "Mango"));
+
+		for (Map.Entry m : map.entrySet()) {
+			System.out.println("Key :: " + m.getKey() + " Value :: " + m.getValue());
+		}
+
+		/*  putIfAbsent Vs computeIfAbsent
+			#1 Both functions aspire to add an element if the specified Key is not already present in Map
+			#2 computeIfAbsent takes a mapping function unlike a value directly in putIfAbsent
+			#3 computeIfAbsent returns "the current (existing or computed) value associated with the specified key, or null if the computed value is null"
+			   putIfAbsent returns "the previous value associated with the specified key, or null if there was no mapping for the key"
+
+
+		 */
+		System.out.println("-------------------computeIfAbsent--------------------");
+
+		System.out.println(map.computeIfAbsent(6, (key) -> {
+			return "cucumber";
+		}));
 
 		for (Map.Entry m : map.entrySet()) {
 			System.out.println("Key :: " + m.getKey() + " Value :: " + m.getValue());
@@ -50,21 +68,13 @@ public class HashMapExamples {
 			System.out.println("Key :: " + m.getKey() + " Value :: " + m.getValue());
 		}
 
-		System.out.println("-------------------computeIfAbsent--------------------");
 
-		System.out.println(map.computeIfAbsent(6, (key) -> {
-			return "cucumber";
-		}));
-
-		for (Map.Entry m : map.entrySet()) {
-			System.out.println("Key :: " + m.getKey() + " Value :: " + m.getValue());
-		}
 
 		System.out.println("-------------------forEach--------------------");
 		map.forEach((k, v) -> System.out.println("key: " + k + " value:" + v));
 
 
-		System.out.println("---------------- Insert Or Update -----------------------");
+		System.out.println("---------------- Insert Or Update with getOrDefault -----------------------");
 		String word = "aaabbbbccddeeeeefffff";
 		HashMap<Character, Integer> hm = new HashMap<>();
 		//occurrence and frequency of each letter;

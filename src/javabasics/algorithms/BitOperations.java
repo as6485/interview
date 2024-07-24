@@ -8,6 +8,7 @@ public class BitOperations {
 		int b = 7;
 		int c = 21;
 		int d = -21;
+		int x = 10, y = 20;
 
 		// bitwise and
 		// 0101 & 0111=0101 = 5
@@ -44,15 +45,25 @@ public class BitOperations {
 
 		// get bit
 		System.out.println("get 3rd bit of 5 (101) : " + getBit(5, 2));
-		
+
 		// set bit
 		System.out.println("set 2nd bit of 5 (101) to 7 (111) : " + setBit(5, 1));
-		
+
 		// clear bit
 		System.out.println("clear 2nd bit of 7 (111) to 5 (101) : " + clearBit(7, 1));
-		
+
 		// update bit
 		System.out.println("update 2nd bit of 5 (101) with 1 to make 7 (111) : " + updateBit(5, 1, 1));
+
+
+
+
+		//swap without a third variable
+		System.out.println("Before swap x : " + x + " y : " + y);
+		x ^= y;
+		y ^= x;
+		x ^= y;
+		System.out.println("After swap x : " + x + " y : " + y);
 	}
 
 	private static int getBit(int num, int bit) {
@@ -83,5 +94,5 @@ public class BitOperations {
 		
 		return num;
 	}
-	
+
 }
