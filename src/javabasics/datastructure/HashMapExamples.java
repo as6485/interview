@@ -52,9 +52,9 @@ public class HashMapExamples {
 
 		 */
 		System.out.println("-------------------computeIfAbsent--------------------");
-
+		//In the mapping function, the key can be passed to compute the value
 		System.out.println(map.computeIfAbsent(6, (key) -> {
-			return "cucumber";
+			return key.toString()+"cucumber";
 		}));
 
 		for (Map.Entry m : map.entrySet()) {

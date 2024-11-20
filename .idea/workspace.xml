@@ -8,9 +8,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="645cbd82-8ba9-419e-bfdc-d60981a97a8e" name="Changes" comment="leet progress 23rd Aug 24">
+    <list default="true" id="645cbd82-8ba9-419e-bfdc-d60981a97a8e" name="Changes" comment="leet progress 24th Oct 24">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/ReverseLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/ReverseLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javabasics/datastructure/HashMapExamples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javabasics/datastructure/HashMapExamples.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,141 +56,118 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.AddBinary.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.ArrayManipulation.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ArrayMultiDimension.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ArrowsToBallons.executor&quot;: &quot;Run&quot;,
-    &quot;Application.AsteroidCollision.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BST.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BestTimetoBuyandSellStock2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BestTimetoBuyandSellStockwithTransactionFee.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.BinarySearchTree.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.BinaryTreeLevelOrderTraversal.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BinaryTreeNextRight.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.BitOperations.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BitwiseANDOfNumbersRange.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Candy.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CombinationSum.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.ConcurrentModificationInCollection.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ConstructBinaryTreeFromInorderAndPostorder.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.CountGoodNodesInBinaryTree.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DailyTemperatures.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Dota2Senate.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.EqualRowAndColumnPairs.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.FindPeakElement.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FindtheDifferenceofTwoArrays.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FruitIntoBaskets.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GraphAdjList.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GroupAnagrams.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HIndex.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.HammingWeight.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HappyNumber.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HashMapExamples.executor&quot;: &quot;Run&quot;,
-    &quot;Application.InsertInterval.executor&quot;: &quot;Run&quot;,
-    &quot;Application.IsomorphicString.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.KeysAndRooms.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Knapsack_01.executor&quot;: &quot;Run&quot;,
-    &quot;Application.KthLargestElementInAnArray.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.LCABinaryTree.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.LRUCache.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LetterCombinationsOfPhoneNumber.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.ListExamples.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LongestCommonSubsequence.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.LongestSubarrayOf1.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.LongestZigZagPathInABinaryTree.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MaxConsecutiveOnesIII.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.MaxNumberOfKSumPairs.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MaximumLevelSumOfBinaryTree.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.MaximumTwinSum.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.MergeIntervals.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MergeKSortedArrays.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.MergeKSortedLists.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.MinStack.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MinimumFlips.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MinimumWindowSubstring.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.NonOverlappingIntervals.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NumberOfIslands.executor&quot;: &quot;Run&quot;,
-    &quot;Application.OddEvenLinkedList.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PalindromeNumber.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PathSumIII.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PlusOne.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ProductOfArrayExceptSelf.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.QueueExample.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.RandomizedSet.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RemoveDuplicatesfromSortedArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RemoveDuplicatesfromSortedArray2.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.ReorderRoutes.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReverseBits.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.ReverseLinkedList.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.RomanToInteger.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RotateList.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RottingOranges.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SetExamples.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SmallestInfiniteSet.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.SpellsAndPotions.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.SquareRoot.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.StackExamples.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StreamExamples.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StringCompression.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StringExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TextJustification.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TrappingRainWater.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Trie.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TwoStringsAreClose.executor&quot;: &quot;Run&quot;,
-    &quot;Application.UniquePaths.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.ValidPalindrome.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.ValidParentheses.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/urmis/IdeaProjects/interview&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AddBinary.executor": "Debug",
+    "Application.ArrayManipulation.executor": "Run",
+    "Application.ArrayMultiDimension.executor": "Run",
+    "Application.ArrowsToBallons.executor": "Run",
+    "Application.AsteroidCollision.executor": "Run",
+    "Application.BST.executor": "Run",
+    "Application.BestTimetoBuyandSellStock2.executor": "Run",
+    "Application.BestTimetoBuyandSellStockwithTransactionFee.executor": "Debug",
+    "Application.BinarySearchTree.executor": "Debug",
+    "Application.BinaryTreeLevelOrderTraversal.executor": "Run",
+    "Application.BinaryTreeNextRight.executor": "Debug",
+    "Application.BitOperations.executor": "Run",
+    "Application.BitwiseANDOfNumbersRange.executor": "Run",
+    "Application.Candy.executor": "Run",
+    "Application.CombinationSum.executor": "Debug",
+    "Application.ConcurrentModificationInCollection.executor": "Run",
+    "Application.ConstructBinaryTreeFromInorderAndPostorder.executor": "Debug",
+    "Application.CountGoodNodesInBinaryTree.executor": "Run",
+    "Application.CourseSchedule.executor": "Debug",
+    "Application.DailyTemperatures.executor": "Debug",
+    "Application.Dota2Senate.executor": "Debug",
+    "Application.EqualRowAndColumnPairs.executor": "Debug",
+    "Application.FindPeakElement.executor": "Run",
+    "Application.FindtheDifferenceofTwoArrays.executor": "Run",
+    "Application.FruitIntoBaskets.executor": "Run",
+    "Application.GraphAdjList.executor": "Run",
+    "Application.GroupAnagrams.executor": "Run",
+    "Application.HIndex.executor": "Debug",
+    "Application.HammingWeight.executor": "Run",
+    "Application.HappyNumber.executor": "Run",
+    "Application.HashMapExamples.executor": "Debug",
+    "Application.InsertInterval.executor": "Run",
+    "Application.IsomorphicString.executor": "Debug",
+    "Application.KeysAndRooms.executor": "Run",
+    "Application.Knapsack_01.executor": "Run",
+    "Application.KthLargestElementInAnArray.executor": "Debug",
+    "Application.LCABinaryTree.executor": "Debug",
+    "Application.LRUCache.executor": "Run",
+    "Application.LetterCombinationsOfPhoneNumber.executor": "Debug",
+    "Application.ListExamples.executor": "Run",
+    "Application.LongestCommonSubsequence.executor": "Debug",
+    "Application.LongestSubarrayOf1.executor": "Debug",
+    "Application.LongestZigZagPathInABinaryTree.executor": "Run",
+    "Application.MaxConsecutiveOnesIII.executor": "Debug",
+    "Application.MaxNumberOfKSumPairs.executor": "Run",
+    "Application.MaximumLevelSumOfBinaryTree.executor": "Debug",
+    "Application.MaximumTwinSum.executor": "Debug",
+    "Application.MergeIntervals.executor": "Run",
+    "Application.MergeKSortedArrays.executor": "Debug",
+    "Application.MergeKSortedLists.executor": "Debug",
+    "Application.MinStack.executor": "Run",
+    "Application.MinimumFlips.executor": "Run",
+    "Application.MinimumWindowSubstring.executor": "Debug",
+    "Application.NonOverlappingIntervals.executor": "Run",
+    "Application.NumberOfIslands.executor": "Run",
+    "Application.OddEvenLinkedList.executor": "Run",
+    "Application.PalindromeNumber.executor": "Run",
+    "Application.PathSumIII.executor": "Run",
+    "Application.PlusOne.executor": "Run",
+    "Application.ProductOfArrayExceptSelf.executor": "Debug",
+    "Application.QueueExample.executor": "Debug",
+    "Application.RandomizedSet.executor": "Run",
+    "Application.RemoveDuplicatesfromSortedArray.executor": "Run",
+    "Application.RemoveDuplicatesfromSortedArray2.executor": "Debug",
+    "Application.ReorderRoutes.executor": "Run",
+    "Application.ReverseBits.executor": "Debug",
+    "Application.ReverseLinkedList.executor": "Debug",
+    "Application.RomanToInteger.executor": "Run",
+    "Application.RotateList.executor": "Run",
+    "Application.RottingOranges.executor": "Run",
+    "Application.SetExamples.executor": "Run",
+    "Application.SmallestInfiniteSet.executor": "Debug",
+    "Application.SpellsAndPotions.executor": "Debug",
+    "Application.SquareRoot.executor": "Debug",
+    "Application.StackExamples.executor": "Run",
+    "Application.StreamExamples.executor": "Run",
+    "Application.StringCompression.executor": "Run",
+    "Application.StringExample.executor": "Run",
+    "Application.TextJustification.executor": "Run",
+    "Application.TrappingRainWater.executor": "Debug",
+    "Application.Trie.executor": "Debug",
+    "Application.TwoStringsAreClose.executor": "Run",
+    "Application.UniquePaths.executor": "Debug",
+    "Application.ValidPalindrome.executor": "Debug",
+    "Application.ValidParentheses.executor": "Run",
+    "Application.WordBreak.executor": "Debug",
+    "Application.WordLadder.executor": "Debug",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "extract.method.default.visibility": "private",
+    "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "17",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/urmis/IdeaProjects/interview",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="leetcode" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BinaryTreeLevelOrderTraversal">
-    <configuration name="BinaryTreeLevelOrderTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.BinaryTreeLevelOrderTraversal" />
-      <module name="interview" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BinaryTreeNextRight" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.BinaryTreeNextRight" />
-      <module name="interview" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FindtheDifferenceofTwoArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.FindtheDifferenceofTwoArrays" />
+  <component name="RunManager" selected="Application.HashMapExamples">
+    <configuration name="CourseSchedule" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.CourseSchedule" />
       <module name="interview" />
       <extension name="coverage">
         <pattern>
@@ -230,8 +207,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.ReverseLinkedList" />
+    <configuration name="Trie" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javabasics.datastructure.Trie" />
+      <module name="interview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javabasics.datastructure.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WordBreak" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.WordBreak" />
+      <module name="interview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WordLadder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.WordLadder" />
       <module name="interview" />
       <extension name="coverage">
         <pattern>
@@ -244,20 +247,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BinaryTreeLevelOrderTraversal" />
-      <item itemvalue="Application.BinaryTreeNextRight" />
-      <item itemvalue="Application.FindtheDifferenceofTwoArrays" />
-      <item itemvalue="Application.HashMapExamples" />
       <item itemvalue="Application.PrimeNumber" />
-      <item itemvalue="Application.ReverseLinkedList" />
+      <item itemvalue="Application.Trie" />
+      <item itemvalue="Application.WordLadder" />
+      <item itemvalue="Application.CourseSchedule" />
+      <item itemvalue="Application.WordBreak" />
+      <item itemvalue="Application.HashMapExamples" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ReverseLinkedList" />
         <item itemvalue="Application.HashMapExamples" />
-        <item itemvalue="Application.FindtheDifferenceofTwoArrays" />
-        <item itemvalue="Application.BinaryTreeNextRight" />
-        <item itemvalue="Application.BinaryTreeLevelOrderTraversal" />
+        <item itemvalue="Application.Trie" />
+        <item itemvalue="Application.WordLadder" />
+        <item itemvalue="Application.CourseSchedule" />
+        <item itemvalue="Application.WordBreak" />
       </list>
     </recent_temporary>
   </component>
@@ -727,11 +730,6 @@
           <option name="timeStamp" value="107" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/javabasics/datastructure/graph/GraphAdjList.java</url>
-          <line>45</line>
-          <option name="timeStamp" value="112" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/leetcode/NumberOfIslands.java</url>
           <line>38</line>
           <option name="timeStamp" value="114" />
@@ -905,6 +903,34 @@
           <url>file://$PROJECT_DIR$/src/leetcode/BinaryTreeLevelOrderTraversal.java</url>
           <line>19</line>
           <option name="timeStamp" value="184" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/CourseSchedule.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="192" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/WordLadder.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="193" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/WordLadder.java</url>
+          <line>28</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="194" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/javabasics/datastructure/Trie.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="195" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/javabasics/datastructure/HashMapExamples.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="196" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.util.ConcurrentModificationException" package="java.util" />
