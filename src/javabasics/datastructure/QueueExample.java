@@ -57,6 +57,12 @@ public class QueueExample {
 
 		System.out.println("Top Student : "+studentsPQ.peek().name);
 
+		System.out.println("********* Another PriorityQueue with Comparator *******************");
+		PriorityQueue<String> colourPQ = new PriorityQueue<>(5, (a, b) -> a.length() - b.length());
+		colourPQ.add("Blue");
+		colourPQ.add("Red");
+		colourPQ.add("Orange");
+		System.out.println("Top Colour : "+colourPQ.peek());
 
 		System.out.println("******************* ArrayDeque *************************");
 
