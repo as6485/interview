@@ -18,7 +18,6 @@ public class WordLadder {
     public static int ladderLength(String start, String end, Set<String> dict) {
         Set<String> set1 = new HashSet<String>();
         Set<String> set2 = new HashSet<String>();
-
         set1.add(start);
         set2.add(end);
 
