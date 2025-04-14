@@ -10,6 +10,8 @@ public class BitOperations {
 		int d = -21;
 		int x = 10, y = 20;
 
+		System.out.println("1's complement of 5 is " + onesComplement(5));
+
 		// bitwise and
 		// 0101 & 0111=0101 = 5
 		System.out.println("a&b = " + (a & b));
@@ -93,6 +95,21 @@ public class BitOperations {
 			num=clearBit(num, bit);
 		
 		return num;
+	}
+
+	private static int onesComplement (int n){
+		if(n==0) return 1;
+		int countBits = 0;
+		int y = n;
+		//count the number of bits. For 5(101) its 3
+		while(y > 0){
+			countBits++;
+			y = y >> 1;
+		}
+		//we need to get 7(111) here. 2 pow 3 minus 1
+		int allSetBits = (int) (Math.pow(2, countBits) - 1);
+		//5(101) ^ 7(111) will give 2(010)
+		return n ^ allSetBits;
 	}
 
 }

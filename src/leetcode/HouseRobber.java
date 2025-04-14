@@ -1,14 +1,12 @@
 package leetcode;
 
-import java.util.Collections;
-import java.util.HashMap;
-
 public class HouseRobber {
     public static void main(String[] args) {
         int nums[] = new int[] {2,1,1,2};
         System.out.println(rob(nums));
 
     }
+    //fibonacci approach : Time - O(n), Space - O(n)
     /*public static int rob(int[] nums) {
         HashMap<Integer, Integer> hm = new HashMap<>();
         for (int i = 0; i < nums.length; i++){
@@ -25,6 +23,7 @@ public class HouseRobber {
         return Collections.max(hm.values());
     }*/
 
+    //fibonacci with O(1) space
     public static int rob(int[] nums) {
         int n = nums.length;
         if(n == 1) return nums[0];
